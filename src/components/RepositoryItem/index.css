@@ -1,0 +1,58 @@
+.repositoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  background-color: #f8f8ff;
+  border-radius: 24px;
+  height: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+@media (min-width: 576px) {
+  .repositoryItem {
+    flex-basis: 45%;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .repositoryItem {
+    flex-basis: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .repositoryItem {
+    flex-basis: 23%;
+  }
+}
+
+.repositoryImg {
+  width: 92px;
+  height: 92px;
+}
+.repositoryName {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.statsContainer {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+.statsIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+.statsText {
+  color: #1e292b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}
